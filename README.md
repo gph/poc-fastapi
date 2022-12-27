@@ -1,12 +1,24 @@
+## create a virtual env
 
-## Install dependencies
+```commandline
+python -m venv venv
+```
+
+## switch to virtual env
+
+```commandline
+. venv/bin/activate
+```
+
+## install dependencies
+
 ```commandline
 pip install fastapi uvicorn
 ```
 
-## Run development server
+## run development server
 
 ```commandline
-uvicorn main:app --reload
+uvicorn <FILE_NAME>:app --reload
 ```
 
