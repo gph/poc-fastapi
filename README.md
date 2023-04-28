@@ -1,12 +1,5 @@
+## Start up the API
 
-## Install dependencies
-```commandline
-pip install fastapi uvicorn
+```shell
+docker composer up -d
 ```
-
-## Run development server
-
-```commandline
-uvicorn main:app --reload
-```
-
